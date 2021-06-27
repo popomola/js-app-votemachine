@@ -51,3 +51,8 @@
     overflow: auto;
     background-color: rgba(0,0,0,0.4);
 }
+
+.vote__options{
+    display: flex;
+    align-items: center;
+}
