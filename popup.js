@@ -37,7 +37,6 @@ init();*/
 2일차(할 일) - 이제 만들어진 창 안에 투표를 설정할 수 있도록 만들어줘야 한다.
 */
 
-
 document.getElementById('voteAdd').classList.add("voteAdd");
 
 //모달창을 띄울 수 있게 해주는 코드 연습이니까 남이 만든 건 일단 안 쓴다.
@@ -81,6 +80,7 @@ function modal(id) {
         msTransform: 'translate(-50%, -50%)',
         webkitTransform: 'translate(-50%, -50%)'
     });
+
 }
 
 // Element 에 style 한번에 오브젝트로 설정하는 함수 추가
